@@ -1,5 +1,7 @@
 ## TEMPLATE: Astro Micro
 
+https://d1e0d420.learn-240.pages.dev/
+
 # Introducing [Astro Micro 🔬](https://astro-micro.vercel.app/)
 
 Astro Micro is an accessible theme for Astro. It's a fork of [Mark Horn's](https://github.com/markhorn-dev) popular theme [Astro Nano](https://astro-nano-demo.vercel.app/). Like Nano, Micro comes with zero frameworks installed.
