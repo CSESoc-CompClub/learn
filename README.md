@@ -25,6 +25,8 @@ npm run dev
 - CODE (index/home page)
 `src/pages/index.astro`
 
+note that if you want to include images, they should be in the `/public` folder!
+
 
 ### How do i add stuff?
 - Astro documentation: https://docs.astro.build/en/getting-started/
