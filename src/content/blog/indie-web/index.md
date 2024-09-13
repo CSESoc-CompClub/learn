@@ -1,6 +1,6 @@
 ---
 title: "A little exploration of the indie web"
-description: "Hit the ground running."
+description: "Lezzgooo!!!!"
 date: "2024-09-13"
 ---
 
