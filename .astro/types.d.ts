@@ -136,77 +136,37 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
-"00-micro-changelog/index.mdx": {
-	id: "00-micro-changelog/index.mdx";
-  slug: "00-micro-changelog";
+"00-hello-world/index.mdx": {
+	id: "00-hello-world/index.mdx";
+  slug: "00-hello-world";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
-"01-getting-started/index.md": {
-	id: "01-getting-started/index.md";
-  slug: "01-getting-started";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"02-blog-collection/index.md": {
-	id: "02-blog-collection/index.md";
-  slug: "02-blog-collection";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"03-projects-collection/index.md": {
-	id: "03-projects-collection/index.md";
-  slug: "03-projects-collection";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"04-markdown-syntax/index.mdx": {
-	id: "04-markdown-syntax/index.mdx";
-  slug: "04-markdown-syntax";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
-"05-mdx-syntax/index.mdx": {
-	id: "05-mdx-syntax/index.mdx";
-  slug: "05-mdx-syntax";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
-"06-year-sorting-example/index.md": {
-	id: "06-year-sorting-example/index.md";
-  slug: "06-year-sorting-example";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"07-draft-example/index.md": {
-	id: "07-draft-example/index.md";
-  slug: "07-draft-example";
+"01-indie-web/index.md": {
+	id: "01-indie-web/index.md";
+  slug: "01-indie-web";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
 "projects": {
+};
+"resources": {
 "0-workshop-archive/index.md": {
 	id: "0-workshop-archive/index.md";
   slug: "0-workshop-archive";
   body: string;
-  collection: "projects";
-  data: InferEntrySchema<"projects">
+  collection: "resources";
+  data: any
 } & { render(): Render[".md"] };
 "project-2/index.md": {
 	id: "project-2/index.md";
   slug: "project-2";
   body: string;
-  collection: "projects";
-  data: InferEntrySchema<"projects">
+  collection: "resources";
+  data: any
 } & { render(): Render[".md"] };
 };
 
