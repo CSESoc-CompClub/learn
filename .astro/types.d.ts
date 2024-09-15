@@ -145,6 +145,13 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "projects": {
+"cool-tutorial/index.md": {
+	id: "cool-tutorial/index.md";
+  slug: "cool-tutorial";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
 "formatting-guide/index.md": {
 	id: "formatting-guide/index.md";
   slug: "formatting-guide";
