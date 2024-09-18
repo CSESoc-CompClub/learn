@@ -2,6 +2,7 @@
 title: "The declining innovation of iPhones"
 description: "Which iPhone are we up to now?"
 date: "2024-09-15"
+author: "Nicole Chun"
 ---
 
 When Apple launched the first iPhone in 2007, it revolutionized the tech world. From the App Store to touchscreens, each new model brought increased functionality, innovative user interfaces, and significant upgrades in performance which left competition in the dust. Fast forward to the iPhone X in 2017, which introduced Face ID and the edge-to-edge OLED display, and it seemed like Apple was still leading the charge. 
