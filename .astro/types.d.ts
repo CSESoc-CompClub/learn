@@ -141,14 +141,21 @@ declare module 'astro:content' {
   slug: "iphone";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "p5js/index.md": {
 	id: "p5js/index.md";
   slug: "p5js";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
+} & { render(): Render[".md"] };
+"query_planet/index.md": {
+	id: "query_planet/index.md";
+  slug: "query_planet";
+  body: string;
+  collection: "blog";
+  data: any
 } & { render(): Render[".md"] };
 };
 "projects": {
@@ -157,14 +164,14 @@ declare module 'astro:content' {
   slug: "formatting-guide";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".md"] };
 "home-setup/index.md": {
 	id: "home-setup/index.md";
   slug: "home-setup";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -176,5 +183,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("./../src/content/config.js");
+	export type ContentConfig = never;
 }
