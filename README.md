@@ -1,4 +1,5 @@
 ## 🌱 CompClub Learn 🌱
+https://learn.compclub.org/
 
 ### What is this?
 Learn is a little corner created by CompClub where curiosity meets computer science. 
